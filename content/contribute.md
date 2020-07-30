@@ -1,4 +1,4 @@
-ForceNexusChat
+ForceNexusChat - workshop created by Evan Tilley
 
 ### Goal
 Create a real-time iOS chat application.
