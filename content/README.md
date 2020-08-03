@@ -108,11 +108,9 @@ You can use this as a guide:
 
 ![alt text](images/phone3.png)
 
-**This exercise should take about 30 minutes** since it mostly just involves copying and pasting and then adding whatever other fancy UI/features you'd like. The forcenexus.us image is under Part1/forcenexus.png
+**This exercise should take about 15 minutes** since it mostly just involves copying and pasting and then adding whatever other fancy UI/features you'd like. The forcenexus.us image is under Part1/forcenexus.png
 
 The next exercise will require implementing your own UI mostly from scratch.
-
-//next: create barebone foreach loop with no background and stuff and tell them to customize it themselves
 
 ### Creating the main page
 
@@ -136,7 +134,7 @@ The resulting screen looks something like this:
 
 ### Activity #2 - Creating your own main view page
 
-Those with Xcode can now split off into groups and create their own version of the main page! Try adding a few pictures, a nice background, and a much neater list! Think about what you'd what the main page of a Force Nexus chat application to look like. This activity should take about 1 hour.
+Those with Xcode can now split off into groups and create their own version of the main page! Try adding a few pictures, a nice background, and a much neater list! Think about what you'd what the main page of a Force Nexus chat application to look like. This activity should take about 30 mins.
 
 #### Sample Main View Page:
 
@@ -474,14 +472,18 @@ I'll leave it up to you to add a back button to the MessagingView - it's exactly
 This application, while simple, showcases the essential parts of firebase and thus is a useful template for creating other apps involving communication between users. A few things that we left out were:
 
 * The ability to log out
+  
   * This can be achieved with the Firebase authentication system
 * The ability to remember when a user was logged in when they close the application and open it up again
+  
   * This can be achieved with iOS User Defaults
 * Push notifications
+  
   * This is more difficult, but it can be achieved. I prefer OneSignal for this, thought the initial set up is a bit time consuming
 * Error message UI
-  * We just logged errors to the console, but in a real application, we'd have a State error message variable linked up to a Text view that indicates any errors to users.
-
+  
+* We just logged errors to the console, but in a real application, we'd have a State error message variable linked up to a Text view that indicates any errors to users.
+  
 * Adding an icon to our application.
 
   * This can be done in the 'Assets' section of Xcode. The dimensions/scaling is a bit tedious but it is satisfying to have an icon for your app.
