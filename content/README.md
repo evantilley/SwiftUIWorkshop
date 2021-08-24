@@ -7,22 +7,21 @@ Swift, SwiftUI, Firebase, CocoaPods
 
 ## Getting Started
 ### Open Xcode and create a new project
-Note: Ensure that you have Xcode v11 or higher, and you have macOS 10.15, since we are using the latest Apple framework for creating iOS applications, SwiftUI.  
-![alt text](images/firstpic.png)
+Note: Ensure that you have Xcode v11 or higher, and you have macOS 10.15, since we are using the latest Apple framework for creating iOS applications, SwiftUI. 
+<img src="images/firstpic.png" alt="drawing" width="30%"/>
 ### Select 'iOS' and 'App' and press Next
-![alt text](images/secondpic.png)
+<img src="images/secondpic.png" alt="drawing" width="70%"/>
 ### Give your application a Product Name
 You may have to create a 'Team' using your iCloud account. For your organiziation identifier, you can put something like 'com.lastnamefirstname'
 ##### Make sure that 'SwiftUI' is checked
-![alt text](images/thirdpic.png)
+<img src="images/thirdpic.png" alt="drawing" width="70%"/>
 
 Press 'Next' and save wherever
 
 ### Your new project!
 
 The resulting file should looking something like this
-
-![alt text](images/fourthpic.png)
+<img src="images/fourthpic.png" alt="drawing" width="85%"/>
 
 
 
@@ -65,11 +64,11 @@ Every chat app needs a login page. Let's create the login page together. Afterwa
 
 To start off with, Xcode gives you somthing like this:
 
-![alt text](images/code1.png)
+<img src="images/code1.png" alt="drawing" width="70%"/>
 
 which creates the following preview in the **canvas** (I'm using an iPhone 11 for this example)
 
-![alt text](images/phone1.png)
+<img src="images/phone1.png" alt="drawing" width="35%"/>
 
 
 
@@ -77,7 +76,7 @@ which creates the following preview in the **canvas** (I'm using an iPhone 11 fo
 
 We'll go through how to create a loginPage that resembles the following:
 
-![alt text](images/phone2.png)
+<img src="images/phone2.png" alt="drawing" width="35%"/>
 
 Note that the placeholder text is difficult to see - there is a way around this that involves creating a custom textfield struct. If interested, let me know.
 
